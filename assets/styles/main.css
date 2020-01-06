@@ -1,0 +1,47 @@
+div.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+    "header"
+    "intro"
+    "cards"
+    "footer";
+    grid-gap: 15px;
+}
+
+div.header-container {
+    grid-area: header;
+    text-align: center;
+    border: 2px solid blue;
+}
+div.intro-container {
+    grid-area: intro;
+    border: 2px solid green;
+}
+div.cards-container {
+    grid-area: cards;
+    border: 2px solid red;
+}
+div.footer-container {
+    grid-area: footer;
+    border: 2px solid yellowgreen; 
+}
+
+div.card-flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+div.card {
+    border: 2px solid teal;
+    background-image: url('../images/test.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.social-flex-container {
+    display: flex;
+    justify-content: space-evenly;
+}
