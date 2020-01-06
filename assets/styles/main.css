@@ -10,6 +10,16 @@ div.grid-container {
     grid-gap: 15px;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    max-width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 div.header-container {
     grid-area: header;
     text-align: center;
@@ -34,6 +44,16 @@ div.card-flex-container {
     flex-wrap: wrap;
 }
 
+div.header-container, div.footer-container {
+    background-color: #1C2833;
+    color: #fff;
+}
+
+div.intro-container img {
+    height: auto;
+    width: 100%;
+}
+
 div.card {
     border: 2px solid teal;
     background-image: url('../images/test.jpg');
@@ -44,4 +64,5 @@ div.card {
 div.social-flex-container {
     display: flex;
     justify-content: space-evenly;
+    padding: 15px;
 }
