@@ -27,7 +27,14 @@ div.header-container {
 }
 div.intro-container {
     grid-area: intro;
+    padding: 15px;
 }
+div.intro-container article {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 div.cards-container {
     grid-area: cards;
 }
@@ -40,9 +47,10 @@ div.header-container, div.footer-container {
     color: #fff;
 }
 
-div.intro-container img {
-    max-height: 400px;
-    width: 100%;
+div.feature {
+    background-image: url('../images/dates.jpg');
+    background-size: cover;
+    min-height: 200px;
 }
 
 div.card-flex-container {
@@ -56,7 +64,7 @@ div.card {
     background-size: cover;
     background-repeat: no-repeat;
     height: 300px;
-    width: 500px;
+    min-width: 470px;
     margin: 15px;
     box-shadow: 10px 10px 5px grey;
 }
@@ -76,4 +84,12 @@ div.social-flex-container {
     display: flex;
     justify-content: space-evenly;
     padding: 15px;
+}
+
+@media(min-width: 600px) {
+
+    div.feature {
+        min-height: 400px;
+    }
+
 }
