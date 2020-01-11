@@ -18,17 +18,34 @@ body {
     margin-right: auto;
     margin-top: 0;
     margin-bottom: 0;
+    background-image: linear-gradient(#1c2833, #374c5f, #1c2833);
+    color: #fff;
 }
 
 div.header-container {
     grid-area: header;
     text-align: center;
-    border: 2px solid blue;
 }
+span.arabic {
+    font-size: 2.8rem;
+}
+div.header-container .heading {
+    letter-spacing: 5px;
+}
+
 div.intro-container {
     grid-area: intro;
     padding: 15px;
 }
+figure.feature img {
+    width: 100%;
+    height: auto;
+}
+figure.feature figcaption {
+    text-align: center;
+    font-size: 0.7rem;
+}
+
 div.intro-container article {
     max-width: 800px;
     margin-left: auto;
@@ -43,14 +60,11 @@ div.footer-container {
 }
 
 div.header-container, div.footer-container {
-    background-color: #1c2833;
     color: #fff;
 }
 
-div.feature {
-    background-image: url('../images/dates.jpg');
-    background-size: cover;
-    min-height: 200px;
+div.cards-container {
+    background-color: #fff;
 }
 
 div.card-flex-container {
@@ -66,7 +80,7 @@ div.card {
     height: 300px;
     min-width: 470px;
     margin: 15px;
-    box-shadow: 10px 10px 5px grey;
+    box-shadow: 0 10px 10px 1px #ccc;
 }
 
 div.card-body {
@@ -79,6 +93,9 @@ div.card-body {
 div.card-body .category {
     text-decoration: none;
 }
+div.card-body h3, div.card-body p {
+    color: #000;
+}
 
 div.social-flex-container {
     display: flex;
@@ -86,10 +103,18 @@ div.social-flex-container {
     padding: 15px;
 }
 
+
 @media(min-width: 600px) {
 
-    div.feature {
-        min-height: 400px;
+    figure.feature img {
+        max-width: 800px;
+        height: auto;
     }
+    figure.feature img.feature-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    div.intro-container
 
 }
