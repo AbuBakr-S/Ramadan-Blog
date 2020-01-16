@@ -30,6 +30,10 @@ div.bp-section-2-flexbox-container {
   display: flex;
   justify-content: center;
 }
+div.section-2 img {
+  width: 100%;
+  height: auto;
+}
 
 
 div.section-3 {
@@ -60,6 +64,12 @@ div.bp-section-5-flexbox-container {
 div.bp-section-4-flexbox-container div.archive-links {
   display: flex;
   flex-direction: column;
+}
+
+div.social-flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px;
 }
 
 
