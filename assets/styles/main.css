@@ -84,13 +84,21 @@ div.card-flex-container {
 }
 
 div.card {
-    background-image: url('../images/test.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 300px;
     min-width: 470px;
     margin: 15px;
     box-shadow: 0 10px 10px 1px #ccc;
+}
+div.card.spiritual {
+    background-image: url('../images/prayer-hands.jpg');
+}
+div.card.charity {
+    background-image: url('../images/growth.jpg');
+}
+div.card.health {
+    background-image: url('../images/fruit.jpg');
 }
 
 div.card-body {
