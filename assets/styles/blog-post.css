@@ -79,6 +79,7 @@ div.section-4 h1 {
 
 div.section-5 {
   grid-area: archives;
+  padding: 15px;
 }
 div.bp-section-5-flexbox-container {
   display: flex;
