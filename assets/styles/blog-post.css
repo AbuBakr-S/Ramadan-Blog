@@ -3,12 +3,12 @@ div.bp-grid-container {
   grid-template-columns: 1fr;
   grid-template-rows: auto auto auto auto auto auto;
   grid-template-areas: 
-  "section-1"
-  "section-2"
-  "section-3"
-  "section-4"
-  "section-5"
-  "section-6";
+  "info-header"
+  "feat-img"
+  "article"
+  "author-profile"
+  "archives"
+  "footer";
 }
 body {
   font-family: 'Open Sans', sans-serif;
@@ -21,7 +21,7 @@ body {
 }
 
 div.section-1 {
-  grid-area: section-1;
+  grid-area: info-header;
 }
 div.bp-section-1-flexbox-container {
   display: flex;
@@ -30,7 +30,7 @@ div.bp-section-1-flexbox-container {
 }
 
 div.section-2 {
-  grid-area: section-2;
+  grid-area: feat-img;
 }
 div.bp-section-2-flexbox-container {
   display: flex;
@@ -43,7 +43,7 @@ div.section-2 img {
 
 
 div.section-3 {
-  grid-area: section-3;
+  grid-area: article;
 }
 
 article {
@@ -70,7 +70,7 @@ blockquote p::after {
 }
 
 div.section-4 {
-  grid-area: section-4;
+  grid-area: author-profile;
   padding: 15px;
 }
 div.section-4 h1 {
@@ -78,7 +78,7 @@ div.section-4 h1 {
 }
 
 div.section-5 {
-  grid-area: section-5;
+  grid-area: archives;
 }
 div.bp-section-5-flexbox-container {
   display: flex;
@@ -91,7 +91,7 @@ div.archive-links {
 }
 
 div.section-6 {
-  grid-area: section-6;
+  grid-area: footer;
 }
 div.bp-section-6-flexbox-container {
   display: flex;
@@ -112,31 +112,31 @@ div.bp-section-6-flexbox-container div.archive-links {
     grid-template-columns: 1fr 2fr;
     grid-template-rows: auto auto auto auto auto;
     grid-template-areas: 
-    "section-1 section-2"
-    "section-1 section-3"
-    "section-4 section-3"
-    "section-5 section-3"  
-    "section-6 section-6"
+    "info-header feat-img"
+    "info-header article"
+    "author-profile article"
+    "archives article"  
+    "footer footer"
   }
   div.section-1 {
-    grid-area: section-1;
+    grid-area: info-header;
   }
   div.bp-section-1-flexbox-container h1{
     text-align: center;
   }
   div.section-2 {
-    grid-area: section-2;
+    grid-area: feat-img;
   }
   div.section-3 {
-    grid-area: section-3;
+    grid-area: article;
   }
   div.section-4 {
-    grid-area: section-4;
+    grid-area: author-profile;
   }
   div.section-5 {
-    grid-area: section-5;
+    grid-area: archives;
   }
   div.section-6 {
-    grid-area: section-6;
+    grid-area: footer;
   }
 }
