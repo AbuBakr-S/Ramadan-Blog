@@ -1,17 +1,23 @@
 div.bp-grid-container {
-  border: 2px solid red;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto;
   grid-template-areas: 
   "section-1"
   "section-2"
   "section-3"
   "section-4"
-  "section-5";
+  "section-5"
+  "section-6";
 }
-div.bp-grid-item {
-  border: 2px solid blue;
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 div.section-1 {
@@ -65,11 +71,10 @@ blockquote p::after {
 
 div.section-4 {
   grid-area: section-4;
+  padding: 15px;
 }
-div.bp-section-4-flexbox-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+div.section-4 h1 {
+  text-align: center;
 }
 
 div.section-5 {
@@ -77,13 +82,26 @@ div.section-5 {
 }
 div.bp-section-5-flexbox-container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+div.archive-links {
+  display: flex;
+  flex-direction: column;
+}
+
+div.section-6 {
+  grid-area: section-6;
+}
+div.bp-section-6-flexbox-container {
+  display: flex;
   justify-content: space-evenly;
   color: #fff;
   background-color: #1c2833;
   padding: 15px;
 }
 
-div.bp-section-4-flexbox-container div.archive-links {
+div.bp-section-6-flexbox-container div.archive-links {
   display: flex;
   flex-direction: column;
 }
@@ -92,12 +110,13 @@ div.bp-section-4-flexbox-container div.archive-links {
   div.bp-grid-container {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
     grid-template-areas: 
     "section-1 section-2"
     "section-1 section-3"
     "section-4 section-3"
-    "section-5 section-5";
+    "section-5 section-3"  
+    "section-6 section-6"
   }
   div.section-1 {
     grid-area: section-1;
@@ -116,5 +135,8 @@ div.bp-section-4-flexbox-container div.archive-links {
   }
   div.section-5 {
     grid-area: section-5;
+  }
+  div.section-6 {
+    grid-area: section-6;
   }
 }
