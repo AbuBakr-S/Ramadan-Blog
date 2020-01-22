@@ -87,7 +87,7 @@ div.card {
     background-size: cover;
     background-repeat: no-repeat;
     height: 300px;
-    min-width: 470px;
+    width: 470px;
     margin: 15px;
     box-shadow: 0 10px 10px 1px #ccc;
 }
@@ -103,7 +103,7 @@ div.card.health {
 
 div.card-body {
     background-color: #fff;
-    width: 45%;
+    width: 50%;
     position: relative;
     top: 10px;
     left: 10px;
