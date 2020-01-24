@@ -102,6 +102,12 @@ div.bp-section-6-flexbox-container {
   background-color: #1c2833;
   padding: 15px;
 }
+div.bp-section-6-flexbox-container a i {
+  color: #fff;
+}
+div.bp-section-6-flexbox-container i:hover {
+  color: #c70039;
+}
 
 div.bp-section-6-flexbox-container div.archive-links {
   display: flex;

@@ -141,6 +141,13 @@ div.social-flex-container {
     justify-content: space-evenly;
     padding: 15px;
 }
+div.social-flex-container a i {
+    color: #fff;
+}
+div.social-flex-container i:hover {
+    color: #c70039;
+}
+
 
 
 @media(min-width: 600px) {
