@@ -106,14 +106,6 @@ div.bp-section-6-flexbox-container div.archive-links {
   flex-direction: column;
 }
 
-/*
-article {
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto
-}
-*/
-
 @media(min-width: 600px) {
   div.bp-grid-container {
     display: grid;
