@@ -77,6 +77,13 @@ div.cards-container h1 {
     text-align: center;
     color: #000;
 }
+div.cards-container .subscribe {
+    display: flex;
+    justify-content: center;
+    color: #c70039;
+    font-size: 1.1rem;
+}
+
 div.footer-container {
     grid-area: footer;
 }
