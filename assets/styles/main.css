@@ -60,6 +60,7 @@ div.intro-container article {
 
 div.cards-container {
     grid-area: cards;
+    padding-bottom: 15px;
 }
 div.cards-container h1 {
     text-align: center;
