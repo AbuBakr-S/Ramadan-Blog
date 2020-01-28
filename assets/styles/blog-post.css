@@ -27,6 +27,10 @@ div.bp-section-1-flexbox-container {
   flex-direction: column;
   align-items: center;
 }
+div.bp-section-1-flexbox-container .fa-arrow-circle-left {
+  color: #c70039;
+  font-size: 1.7rem;
+}
 
 div.section-2 {
   grid-area: feat-img;
