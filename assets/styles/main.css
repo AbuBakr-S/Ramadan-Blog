@@ -138,17 +138,10 @@ div.card-body h3, div.card-body p {
 
 div.social-flex-container {
     display: flex;
+    align-items: center;
     justify-content: space-evenly;
-    padding: 15px;
+    padding-bottom: 15px;
 }
-div.social-flex-container a i {
-    color: #fff;
-}
-div.social-flex-container i:hover {
-    color: #c70039;
-}
-
-
 
 @media(min-width: 600px) {
 
