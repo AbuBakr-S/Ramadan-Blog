@@ -135,13 +135,16 @@ div.card-body .category {
 div.card-body h3, div.card-body p {
     color: #000;
 }
-
 div.social-flex-container {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     padding-top: 40px;
     padding-bottom: 55px;
+}
+footer div.credit {
+    text-align: center;
+    font-size: 0.7rem;
 }
 
 @media(min-width: 600px) {

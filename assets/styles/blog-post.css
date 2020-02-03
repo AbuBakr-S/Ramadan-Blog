@@ -107,6 +107,12 @@ div.bp-section-6-flexbox-container {
   padding-top: 55px;
   padding-bottom: 55px;
 }
+footer div.credit {
+  text-align: center;
+  font-size: 0.7rem;
+  background-color: #1c2833;
+  color: #fff;
+}
 
 div.bp-section-6-flexbox-container div.archive-links {
   display: flex;
