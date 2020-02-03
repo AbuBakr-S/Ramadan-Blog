@@ -140,7 +140,8 @@ div.social-flex-container {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding-bottom: 15px;
+    padding-top: 40px;
+    padding-bottom: 55px;
 }
 
 @media(min-width: 600px) {

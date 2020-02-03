@@ -104,13 +104,8 @@ div.bp-section-6-flexbox-container {
   justify-content: space-evenly;
   color: #fff;
   background-color: #1c2833;
-  padding: 15px;
-}
-div.bp-section-6-flexbox-container a i {
-  color: #fff;
-}
-div.bp-section-6-flexbox-container i:hover {
-  color: #c70039;
+  padding-top: 55px;
+  padding-bottom: 55px;
 }
 
 div.bp-section-6-flexbox-container div.archive-links {
