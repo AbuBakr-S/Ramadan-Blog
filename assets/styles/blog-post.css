@@ -31,6 +31,11 @@ div.bp-section-1-flexbox-container .fa-arrow-circle-left {
   color: #c70039;
   font-size: 1.7rem;
 }
+div.bp-section-1-flexbox-container .profile-pic {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+}
 
 div.section-2 {
   grid-area: feat-img;
@@ -139,6 +144,10 @@ div.bp-section-6-flexbox-container div.archive-links {
   }
   div.bp-section-1-flexbox-container h1{
     text-align: center;
+  }
+  div.bp-section-1-flexbox-container .profile-pic {
+    width: 80%;
+    height: auto;
   }
   div.section-2 {
     grid-area: feat-img;
