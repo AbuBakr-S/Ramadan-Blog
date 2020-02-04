@@ -46,7 +46,7 @@ div.bp-section-2-flexbox-container {
 }
 div.section-2 img {
   width: 100%;
-  height: auto;
+  max-height: 300px;
 }
 
 
@@ -151,6 +151,10 @@ div.bp-section-6-flexbox-container div.archive-links {
   }
   div.section-2 {
     grid-area: feat-img;
+  }
+  div.section-2 img {
+    width: 100%;
+    max-height: 650px;
   }
   div.section-3 {
     grid-area: article;
