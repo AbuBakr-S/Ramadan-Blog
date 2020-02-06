@@ -103,11 +103,10 @@ div.card-flex-container {
 }
 
 div.card {
-    display: flex;
     background-size: cover;
     background-repeat: no-repeat;
     height: 300px;
-    width: 100%;
+    width: 470px;
     margin: 15px;
     box-shadow: 0 10px 10px 1px #ccc;
 }
@@ -122,26 +121,20 @@ div.card.health {
 }
 
 div.card-body {
-    display: flex;
-    flex-direction: column;
     background-color: #fff;
-    width: 55%;
+    width: 50%;
+    position: relative;
+    top: 10px;
+    left: 10px;
     padding: 15px;
 }
+
 div.card-body .category {
     text-decoration: none;
 }
 div.card-body h3, div.card-body p {
     color: #000;
 }
-div.card-body p {
-    margin: 0;
-}
-div.card-body a {
-    padding-top: 5px;
-}
-
-
 div.social-flex-container {
     display: flex;
     align-items: center;
