@@ -119,7 +119,6 @@ div.card.charity {
 div.card.health {
     background-image: url('../images/fruit.jpg');
 }
-
 div.card-body {
     display: flex;
     flex-direction: column;
@@ -130,13 +129,16 @@ div.card-body {
     position: relative;
     padding: 15px;
 }
-
 div.card-body .category {
     text-decoration: none;
 }
 div.card-body h3, div.card-body p {
     color: #000;
 }
+div.card-body p {
+    margin-top: 0;
+}
+
 div.social-flex-container {
     display: flex;
     align-items: center;
