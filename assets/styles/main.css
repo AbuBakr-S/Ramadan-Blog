@@ -125,16 +125,23 @@ div.card-body {
     display: flex;
     flex-direction: column;
     background-color: #fff;
-    width: 50%;
+    width: 55%;
     padding: 15px;
 }
-
 div.card-body .category {
     text-decoration: none;
 }
 div.card-body h3, div.card-body p {
     color: #000;
 }
+div.card-body p {
+    margin: 0;
+}
+div.card-body a {
+    padding-top: 5px;
+}
+
+
 div.social-flex-container {
     display: flex;
     align-items: center;
