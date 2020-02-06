@@ -150,6 +150,10 @@ div.social-flex-container {
 footer div.credit {
     text-align: center;
     font-size: 0.7rem;
+    color: #b3b6b7;
+}
+div.credit .credit-link, figcaption {
+    color: #b3b6b7;
 }
 
 @media(min-width: 600px) {
