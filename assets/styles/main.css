@@ -105,7 +105,7 @@ div.card-flex-container {
 div.card {
     background-size: cover;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 310px;
     width: 470px;
     margin: 15px;
     box-shadow: 0 10px 10px 1px #ccc;
@@ -137,6 +137,7 @@ div.card-body h3, div.card-body p {
 }
 div.card-body p {
     margin-top: 0;
+    overflow: hidden;
 }
 
 div.social-flex-container {
