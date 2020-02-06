@@ -123,7 +123,7 @@ div.card-body {
     display: flex;
     flex-direction: column;
     background-color: #fff;
-    width: 65%;
+    width: 50%;
     box-sizing: border-box;
     height: 100%;
     position: relative;
