@@ -116,7 +116,10 @@ footer div.credit {
   text-align: center;
   font-size: 0.7rem;
   background-color: #1c2833;
-  color: #fff;
+  color: #b3b6b7;
+}
+div.credit .credit-link, figcaption {
+  color: #b3b6b7;
 }
 
 div.bp-section-6-flexbox-container div.archive-links {
