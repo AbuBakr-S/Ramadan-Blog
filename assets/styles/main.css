@@ -130,6 +130,15 @@ div.card-body {
 div.card-body .category {
     text-decoration: none;
 }
+div.card-body .spiritual {
+    color:#1898c2;
+}
+div.card-body .charity {
+    color: #1a7434;
+}
+div.card-body .health {
+    color: #f19125;
+}
 div.card-body h3, div.card-body p {
     color: #000;
 }

@@ -28,6 +28,15 @@ div.bp-section-1-flexbox-container {
   align-items: center;
   text-align: center;
 }
+div.bp-section-1-flexbox-container .spiritual {
+  color:#1898c2;
+}
+div.bp-section-1-flexbox-container .charity {
+  color: #1a7434;
+}
+div.bp-section-1-flexbox-container .health {
+  color: #f19125;
+}
 div.bp-section-1-flexbox-container .profile-pic {
   width: 100px;
   height: auto;
@@ -154,13 +163,14 @@ div.bp-section-6-flexbox-container div.archive-links {
     width: 150px;
     height: auto;
   }
+  
   div.section-2 {
     grid-area: feat-img;
   }
   div.section-2 img {
   width: 100%;
   height: 50%;
-}
+  }
   div.section-3 {
     grid-area: article;
     max-width: 800px;
