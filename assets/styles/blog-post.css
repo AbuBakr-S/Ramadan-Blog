@@ -28,14 +28,14 @@ div.bp-section-1-flexbox-container {
   align-items: center;
   text-align: center;
 }
-div.bp-section-1-flexbox-container .fa-arrow-circle-left {
-  color: #c70039;
-  font-size: 1.7rem;
-}
 div.bp-section-1-flexbox-container .profile-pic {
   width: 100px;
   height: auto;
   border-radius: 50%;
+}
+div.bp-section-1-flexbox-container a {
+  text-decoration: none;
+  color: #c70039;
 }
 
 div.section-2 {
@@ -98,7 +98,8 @@ div.archive-links {
   flex-direction: column;
   align-items: center;
 }
-div.archive-links a {
+div.archive-links a { 
+  color: #c70039;
   padding-bottom: 10px;
 }
 

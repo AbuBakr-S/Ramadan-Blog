@@ -95,13 +95,11 @@ div.header-container, div.footer-container {
 div.cards-container {
     background-color: #fff;
 }
-
 div.card-flex-container {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-
 div.card {
     background-size: cover;
     background-repeat: no-repeat;
@@ -138,6 +136,9 @@ div.card-body h3, div.card-body p {
 div.card-body p {
     margin-top: 0;
     overflow: hidden;
+}
+div.card-body .continue {
+    color: #c70039;
 }
 
 div.social-flex-container {
