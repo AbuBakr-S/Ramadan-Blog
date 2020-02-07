@@ -26,6 +26,7 @@ div.bp-section-1-flexbox-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 div.bp-section-1-flexbox-container .fa-arrow-circle-left {
   color: #c70039;
