@@ -40,6 +40,9 @@ input[type=submit] {
 p {
     text-align: center;
 }
+p a {
+    color: #c70039;
+}
 
 @media(min-width: 600px) {
     form {

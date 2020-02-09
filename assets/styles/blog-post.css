@@ -43,6 +43,9 @@ div.bp-section-1-flexbox-container .profile-pic {
   border-radius: 50%;
 }
 div.bp-section-1-flexbox-container a {
+  color: #c70039;
+}
+div.bp-section-1-flexbox-container .social-handler {
   text-decoration: none;
   color: #c70039;
 }
@@ -179,6 +182,9 @@ div.bp-section-6-flexbox-container div.archive-links {
   }
   div.section-4 {
     grid-area: author-profile;
+  }
+  div.bp-section-4-flexbox-container p {
+    color: #535353;
   }
   div.section-5 {
     grid-area: archives;
